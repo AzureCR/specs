@@ -13,6 +13,10 @@ Auto Purge provides a means to automatically delete images based on a set of pol
  By default, images are automatically deleted after __ days
 
 In this case, images can be deleted sooner. However, if they still exist after __ days, they are automatically deleted.
+
+### 1.1 Default Extension based on usage
+An additional parameter can be set that extends the default expiration date based on how many days have passed since the image has been pulled.
+
 ### 2.0 Quarantine failed
 
 Images that failed a vulnerability scan and are kept in quarantine are automatically deleted after __ days.
